@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AgriStack
 
 - `frontend/` — Vite + React app (farmer chat + officer dashboard). Deploy to Vercel/Netlify.
@@ -21,3 +22,6 @@ cd frontend
 npm install
 npm run dev
 ```
+=======
+# AgriStack-AI-Farmer-Query-and-Advisory-System
+>>>>>>> 30bbe56651f357f7b77374fa1a1a5449ffdfdd05
