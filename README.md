@@ -1,0 +1,23 @@
+# AgriStack
+
+- `frontend/` — Vite + React app (farmer chat + officer dashboard). Deploy to Vercel/Netlify.
+- `backend/` — FastAPI RAG service (`/query`, `/triage/queue`, `/stats`, `/kb`). Deploy to Render/Railway/Fly.io.
+
+See the deployment walkthrough for step-by-step instructions.
+
+## Local development
+
+Backend:
+```
+cd backend
+pip install -r requirements.txt --break-system-packages
+export ANTHROPIC_API_KEY=sk-...
+uvicorn main:app --reload --port 8000
+```
+
+Frontend:
+```
+cd frontend
+npm install
+npm run dev
+```
